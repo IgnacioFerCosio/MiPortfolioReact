@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import {ChakraProvider, extendTheme } from '@chakra-ui/react'
 import './index.css'
+import './normalize.css'
 import Header from './Components/Header/Header.jsx'
 import Hero from './Components/Hero/Hero.jsx'
 import Servicios from './Components/Servicios/Servicios.jsx'
@@ -12,16 +14,31 @@ import Habilidades from './Components/Habilidades/Habilidades.jsx'
 import Contacto from './Components/Contacto/Contacto.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 
+const colors = {
+  brand: {
+    naranja: '#ff8911',
+    morado: '#5c5bdb',
+    marron: '#644729',
+  },
+}
+
+
+
+const theme = extendTheme({ colors })
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
-    <Hero/>
-    <Servicios/>
-    <SobreMi/>
-    <Proyectos/>
-    <EduYExp/>
-    <Habilidades/>
-    <Contacto/>
-    <Footer/>
+    <ChakraProvider theme={theme}>
+      <Header/>
+      <Hero/>
+      <Servicios/>
+      <SobreMi/>
+      <Proyectos/>
+      <EduYExp/>
+      <Habilidades/>
+      <Contacto/>
+      <Footer/>
+    </ChakraProvider>
+    
   </React.StrictMode>,
 )
