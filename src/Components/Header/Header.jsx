@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import logo from '/src/assets/images/logo.png'
-import { Box, Button, Flex, Link  } from '@chakra-ui/react'
+import { Box, Flex, Link  } from '@chakra-ui/react'
 
 const CustomLink = ({ children, ...props }) => {
   return (
