@@ -18,7 +18,7 @@ const CustomBox = ({ children, color, ...props }) => {
     );
   };
 
-const Card = ({ color }) => {
+const TimeLine = ({ color }) => {
     return (
       <Box position={'absolute'} transform="translate(-25px, 60px)" w={'3px'} h={'700px'} bg={color}>
         <Flex direction={'column'} alignItems={'center'}>
@@ -30,4 +30,4 @@ const Card = ({ color }) => {
       </Box>
     )
   }
-  export default Card
+  export default TimeLine
