@@ -1,8 +1,8 @@
-import { Card, CardBody, CardFooter, Text, Image, Flex } from "@chakra-ui/react";
+import { Card, CardFooter, Text, Image, Flex } from "@chakra-ui/react";
 import fondoVioleta from '/src/assets/images/fondoVioleta.png';
 import fondoNaranja from '/src/assets/images/fondoNaranja.png';
 
-function CustomButton({ imagen1, imagen2, imagen1Styles , imagen2Styles, titulo, texto }) {
+function Cards({ imagen1, imagen2, imagen1Styles , imagen2Styles, titulo, texto }) {
   return (
     <Card 
     w={'31.5%'} 
@@ -63,4 +63,4 @@ function CustomButton({ imagen1, imagen2, imagen1Styles , imagen2Styles, titulo,
   );
 }
 
-export default CustomButton;
+export default Cards;
