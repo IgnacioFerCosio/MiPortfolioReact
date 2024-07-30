@@ -1,5 +1,4 @@
 import React from 'react'
-import './Proyectos.css'
 import { Box, Heading, Flex } from '@chakra-ui/react'
 import Cuadros from '../Cuadros/Cuadros'
 import Proyecto1 from '../../assets/images/proyecto1.png'

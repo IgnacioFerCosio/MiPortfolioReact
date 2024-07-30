@@ -1,5 +1,4 @@
 import React from 'react'
-import './Header.css'
 import logo from '/src/assets/images/logo.png'
 import { Box, Flex, Link  } from '@chakra-ui/react'
 import Buttons from '../Buttons/Buttons'

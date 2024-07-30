@@ -1,5 +1,4 @@
 import React from 'react'
-import './Hero.css'
 import perfil from '/src/assets/images/perfil.jpg'
 import { Box, Flex, Image, Heading, Text, Link, Icon } from '@chakra-ui/react'
 import { IoPaperPlaneOutline } from "react-icons/io5";

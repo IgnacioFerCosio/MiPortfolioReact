@@ -1,5 +1,4 @@
 import React from 'react'
-import './EduYExp.css'
 import { Box, Flex, Heading } from '@chakra-ui/react'
 import Carta from './EduYExpCard'
 import TimeLine from './TimeLine'

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Habilidades.css'
 import {Box, Heading, Flex} from '@chakra-ui/react'
 import Skill from './Skill'
 import imagenHTML from '../../assets/images/html-5.svg'

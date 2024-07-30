@@ -1,5 +1,4 @@
 import React from 'react'
-import './SobreMi.css'
 import { Box, Link, Text, Heading, Image, Flex, Icon } from '@chakra-ui/react'
 import yo from '../../assets/images/yo.png'
 import backImage from '../../assets/images/fondoSenoidal.png'

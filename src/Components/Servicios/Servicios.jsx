@@ -1,5 +1,4 @@
 import React from 'react'
-import './Servicios.css'
 import { Box, Heading, Text, Img, Flex, Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import datoBlanco from '/src/assets/images/datoBlanco.svg'
 import dato from '/src/assets/images/dato.svg'
