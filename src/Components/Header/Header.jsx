@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo from '/src/assets/images/logo.png'
 import { Box, Flex, Link  } from '@chakra-ui/react'
+import Buttons from '../Buttons/Buttons'
 
 const CustomLink = ({ children, ...props }) => {
   return (
@@ -30,10 +31,9 @@ function Header() {
               <CustomLink>Proyectos</CustomLink>
               <CustomLink>Habilidades</CustomLink>
               <CustomLink>Servicios</CustomLink>
-              <Link borderRadius={'45px'} bg={'brand.naranja'} color={'white'} border={'2px'} borderColor={'brand.naranja'} 
-              p={'18px 58px'} fontSize={'19px'} fontWeight={'500'} _hover={{bg: "transparent", color: "brand.naranja", transition:'0.7s'}}>
+              <Buttons>
                 Descargar CV
-              </Link>
+              </Buttons>
             </Flex>
           </Box>
         </Flex>

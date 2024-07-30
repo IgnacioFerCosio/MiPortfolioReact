@@ -1,7 +1,9 @@
 import React from 'react'
 import './Hero.css'
 import perfil from '/src/assets/images/perfil.jpg'
-import { Box, Flex, Image, Heading, Text, Link } from '@chakra-ui/react'
+import { Box, Flex, Image, Heading, Text, Link, Icon } from '@chakra-ui/react'
+import { IoPaperPlaneOutline } from "react-icons/io5";
+
 
 const HeroButton = ({ children, ...props }) => {
   return (
@@ -33,7 +35,7 @@ function Hero() {
         <Box w={'450px'} mt={'20px'}>
           <Flex justifyContent={'space-around'}>
             <HeroButton>Mis Trabajos</HeroButton>
-            <HeroButton>Contáctame</HeroButton>
+            <HeroButton><Icon as={IoPaperPlaneOutline} mr={'14px'}></Icon>Contáctame</HeroButton>
           </Flex>
         </Box>
       </Flex>
