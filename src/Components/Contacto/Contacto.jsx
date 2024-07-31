@@ -60,6 +60,7 @@ function Contacto() {
               color={'white'} 
               bg={'brand.naranja'} 
               h={'15%'} 
+              transition={'0.7s'}
               _hover={{bg: 'white', color: 'brand.naranja'}}
               >Enviar</Button>
             </Flex>

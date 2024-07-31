@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import {ChakraProvider, extendTheme } from '@chakra-ui/react'
+import {ChakraProvider, extendTheme, Box } from '@chakra-ui/react'
 import './index.css'
 import './normalize.css'
 import Header from './Components/Header/Header.jsx'
@@ -29,16 +29,25 @@ const theme = extendTheme({ colors })
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <Header/>
+      <Header />
       <Hero/>
-      <Servicios/>
-      <SobreMi/>
-      <Proyectos/>
+      <Box id='servicios'>
+        <Servicios/>
+      </Box>
+      <Box id='sobremi'>
+        <SobreMi/>
+      </Box>
+      <Box id='proyectos'>
+        <Proyectos/>
+      </Box>
       <EduYExp/>
-      <Habilidades/>
-      <Contacto/>
+      <Box id='habilidades'>
+        <Habilidades/>
+      </Box>
+      <Box id='contacto'>
+        <Contacto/>
+      </Box>
       <Footer/>
     </ChakraProvider>
-    
   </React.StrictMode>,
 )

@@ -4,9 +4,10 @@ import { Box, Flex, Image, Heading, Text, Link, Icon } from '@chakra-ui/react'
 import { IoPaperPlaneOutline } from "react-icons/io5";
 
 
-const HeroButton = ({ children, ...props }) => {
+const HeroButton = ({ children, path, ...props }) => {
   return (
     <Link
+      href={path}
       bg={'brand.naranja'}
       color={'white'}
       border={'2px'}
@@ -33,8 +34,8 @@ function Hero() {
         <Text fontSize={'2xl'}>con gran variedad de ideas creativas</Text>
         <Box w={'450px'} mt={'20px'}>
           <Flex justifyContent={'space-around'}>
-            <HeroButton>Mis Trabajos</HeroButton>
-            <HeroButton><Icon as={IoPaperPlaneOutline} mr={'14px'}></Icon>Contáctame</HeroButton>
+            <HeroButton path={'#proyectos'}>Mis Trabajos</HeroButton>
+            <HeroButton path={'#contacto'}><Icon as={IoPaperPlaneOutline} mr={'14px'}></Icon>Contáctame</HeroButton>
           </Flex>
         </Box>
       </Flex>
