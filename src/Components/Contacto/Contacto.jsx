@@ -64,7 +64,7 @@ function Contacto() {
               handleSubmit,
               isSubmitting,
           }) => (
-            <Box as='form' ref={form} onSubmit={handleSubmit} w={'52%'}>
+            <Box as='form' ref={form} onSubmit={handleSubmit} w={{base:'85%',xl:'52%'}}>
               <Flex direction={'column'} justifyContent={'space-between'} h={'500px'}>
                 <Box h={'15%'}>
                   <Flex justifyContent={'space-between'}>

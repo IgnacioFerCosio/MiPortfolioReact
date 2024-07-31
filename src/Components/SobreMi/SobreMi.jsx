@@ -31,12 +31,12 @@ function SobreMi() {
       backgroundPosition={'center'}
     >
       <Flex alignItems={'center'} justifyContent={'center'}>
-        <Image src={yo} alt="" />
-        <Box w={'35%'} pl={'7%'} textAlign={'justify'}>
+        <Image src={yo} alt="" h={{base:'450px',xl:'100%'}} display={{base:'none',lg:'block'}}/>
+        <Box w={{base:'90%',lg:'35%'}} pl={'7%'} textAlign={'justify'}>
           <Box>
             <Heading as={'h4'} fontSize={'20px'} color={'brand.naranja'} mb={'8px'}>SOBRE MÍ</Heading>
-            <Heading as={'h1'} fontSize={'38px'} mt={'0px'} textAlign={'left'}>Estudiante de Sistemas y Programación</Heading>
-            <Text lineHeight={'28px'} fontSize={'20px'}>Un programador junior full-stack que le gusta mucho resolver porblemas de lógica en el Back-End. También soy un estudiante avanzado en Ingeniería en Sistemas en la UTN, ansioso por aprender y aplicar mis conocimientos en el mundo tecnológico.</Text>
+            <Heading as={'h1'} fontSize={{base:'32px', lg:'38px'}} mt={'0px'} textAlign={'left'}>Estudiante de Sistemas y Programación</Heading>
+            <Text lineHeight={'28px'} fontSize={'20px'} >Un programador junior full-stack que le gusta mucho resolver porblemas de lógica en el Back-End. También soy un estudiante avanzado en Ingeniería en Sistemas en la UTN, ansioso por aprender y aplicar mis conocimientos en el mundo tecnológico.</Text>
           </Box>
           <Box w={'120px'} pb={'10px'} mt={'20px'}>
             <Flex justifyContent={'space-between'}>

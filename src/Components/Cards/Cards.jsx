@@ -5,9 +5,10 @@ import fondoNaranja from '/src/assets/images/fondoNaranja.png';
 function Cards({ imagen1, imagen2, imagen1Styles , imagen2Styles, titulo, texto }) {
   return (
     <Card 
-    w={'31.5%'} 
+    w={{base:'70%', lg:'31.5%'}} 
     h={'420px'} 
     bg={'#f4f4f4'} 
+    mb={'25px'}
     borderRadius={'30px'} 
     textAlign={'center'} 
     position="relative"

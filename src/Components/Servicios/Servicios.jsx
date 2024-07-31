@@ -14,9 +14,9 @@ function Servicios() {
     <Box as={'section'} m={'7% 0'}>
       <Flex direction={'column'} alignItems={'center'} >
       <Heading as={'h4'} fontSize={'20px'} color={'brand.naranja'} mb={'8px'}>SERVICIOS</Heading>
-      <Heading as={'h1'} fontSize={'38px'} mt={'0px'}>Servicios Profesionales! Démosles una mirada</Heading>
-      <Box pt={'40px'} w={'75%'}>
-        <Flex justifyContent={'space-around'} alignItems={'center'}>
+      <Heading as={'h1'} fontSize={{base:'32px', lg:'38px'}} mt={'0px'} textAlign={'center'}>Servicios Profesionales! Démosles una mirada</Heading>
+      <Box pt={'40px'} w={{base:'95%',xl:'75%'}}>
+        <Flex justifyContent={'space-around'} alignItems={'center'} direction={{base:'column',lg:'row'}}>
           <Carta imagen1={datoBlanco} imagen2={dato} titulo={"Desarrollo Back-End"} texto={"Me especializo en la programación orientada a objetos con Java y Python, con el objetivo de crear sistemas confiables."}></Carta>
           <Carta imagen1={mundoBlanco} imagen2={mundo} imagen2Styles={{ transform: "translate(0px, -80%)"}} imagen1Styles={{ transform: "translate(0px, -80%)"}} titulo={"Desarrollo Front-End"} texto={"Me dedico a la creación de páginas web con Html y CSS, brindando diseños originales y animados, asegurando diseños responsive."}></Carta>
           <Carta imagen1={dataBaseBlanco} imagen2={dataBase} imagen2Styles={{ transform: "translate(0px, -105%)"}} imagen1Styles={{ transform: "translate(0px, -105%)"}} titulo={"Bases de Datos"} texto={"Puedo crear bases de datos desde cero, administrarlas y realizar consultas, principalmente orientadas a SQL."}></Carta> 

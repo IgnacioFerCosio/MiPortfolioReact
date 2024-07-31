@@ -29,7 +29,9 @@ function App() {
   return (
      <ChakraProvider theme={theme}>
       <Header />
-      <Hero/>
+      <Box id='hero'>
+        <Hero/>
+      </Box>
       <Box id='servicios'>
         <Servicios/>
       </Box>

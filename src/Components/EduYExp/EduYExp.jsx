@@ -9,8 +9,8 @@ function EduYExp() {
 
   return (
      <Box as='section' pt={'100px'}>
-      <Flex justifyContent={'center'} alignItems={'center'}>
-        <Box w={'35%'} p={'30px'}>
+      <Flex justifyContent={'center'} alignItems={'center'} direction={{base:'column', lg:'row'}}>
+        <Box w={{base:'94%', md:'70%',lg:'45%', xl:'40%'}} p={'30px'}>
           <Flex justifyContent={'space-between'} direction={'column'}>
             <Heading as={'h4'} fontSize={'20px'} pb={'30px'} color={'brand.naranja'} transform={'translate(-30px,0)'}>Educación</Heading>
             <TimeLine color={'brand.naranja'}></TimeLine>
@@ -20,7 +20,7 @@ function EduYExp() {
           </Flex>
           
         </Box>
-        <Box w={'35%'} p={'30px'}>
+        <Box w={{base:'94%', md:'70%',lg:'45%', xl:'40%'}} p={'30px'}>
           <Flex justifyContent={'space-between'} direction={'column'}>
             <Heading as={'h4'} fontSize={'20px'} pb={'30px'} color={'brand.morado'} transform={'translate(-30px,0)'}>Experiencia</Heading>
             <TimeLine color={'brand.morado'}></TimeLine>

@@ -13,7 +13,7 @@ function Proyectos() {
     <Box as='section' mt={'100px'}>
       <Flex direction={'column'} justifyContent={'center'} alignItems={'center'}>
         <Heading as={'h4'} fontSize={'20px'} color={'brand.naranja'} mb={'0px'}>PROYECTOS</Heading>
-        <Heading as={'h1'} fontSize={'38px'} m={'0px'}>Muestra de Portfolios Digitales</Heading>
+        <Heading as={'h1'} fontSize={'38px'} m={'0px'} textAlign={'center'}>Muestra de Portfolios Digitales</Heading>
         <Box w={'80%'}>
           <Flex justifyContent={'space-around'} alignItems={'center'} flexWrap={'wrap'}>
             <Cuadros imagen={Proyecto1} titulo={"Proyecto 1"} texto={"Detalles del proyecto"}></Cuadros>
