@@ -1,8 +1,11 @@
 import { Button } from "@chakra-ui/react"
+import cv from '../../assets/CV.pdf'
 
 const Buttons = ({ children, ...props }) => {
     return (
-      <Button
+      <Button as={'a'}
+        href={cv}
+        download="CV.pdf"
         borderRadius={'45px'} 
         bg={'brand.naranja'} 
         color={'white'} 
